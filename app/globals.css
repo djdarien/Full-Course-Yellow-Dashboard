@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100dvh;
+  background: #17191e;
+  color: #f3f0e8;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3c404a transparent;
+}
+
+::selection {
+  background: #e23b32;
+  color: #fff;
+}
+
+input[type="range"] {
+  accent-color: #e23b32;
+}
